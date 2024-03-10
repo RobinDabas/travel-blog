@@ -1,0 +1,20 @@
+body {
+    background: white;
+}
+
+.red-bar1 {
+    background-color: #ed1b24;
+    box-sizing: border-box;
+    width: auto;
+    height: 55px;
+    display: flex;
+}
+
+.white-bar1 {
+    background-color: green;
+    box-sizing: border-box;
+    width: auto;
+    height: 55px;
+    display: flex;
+}
+
