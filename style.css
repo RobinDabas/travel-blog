@@ -79,6 +79,39 @@ body {
     flex: 1;
     flex-shrink: 0;
     margin-right: 21px;
+    margin-top: 55px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #ed1b24;
+    font-size: 15px;
+    border-color: #ed1b24;
+    margin-bottom: 30px;
+    margin-right: 355px;
+    margin-top: 20px;
+}
+
+.call-to-action {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-shrink: 0;
+    margin-top: -50px;
+    margin-right: 63px;
 }
 
 
@@ -146,3 +179,34 @@ img {
     margin: 40px 40px;
     margin-left: 600px;
 }
+
+.red4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #003eff;
+    width: 550px;
+    height: 180px;
+    margin: 40px 40px;
+    margin-left: 600px;
+}
+
+.right-side {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    margin-left: 1210px;
+}
+
+.sign-in-button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #ed1b24;
+    font-size: 15px;
+    border-color: white;
+}
+
