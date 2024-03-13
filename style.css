@@ -43,7 +43,7 @@ body {
     align-items: center;
     flex-direction: column;
     flex: 1;
-    margin-top: 42px;
+    margin-top: 1px;
   }
 
 
@@ -55,26 +55,38 @@ body {
    display: flex;
 }
 
+.rectangle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 180px;
+    background: #003eff;
+    margin-top: 130px;
+    margin-left: 45px;
+}
+
 .invite {
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-style: normal;
-    color: #ed1b24;
-    font-size: 50px;
+    color: white;
+    font-size: 35px;
     display: flex;
-    justify-content:flex-start;
-    align-items: flex-start;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex: 1;
-    margin-top: 200px;    
     flex-shrink: 0;
+    margin-right: 21px;
 }
+
 
 .blue2 {
    background-color: #003eff;
    box-sizing: border-box;
    width: auto;
-   height: 120px;
+   height: 60px;
    display: flex;
 }
 
@@ -82,26 +94,55 @@ a {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
-    color: purple;
-    font-size: 8px;
+    color: white;
+    font-size: 15px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
     flex: 1;  
+    text-decoration: none;
 }
 
 ul {
     list-style: none;
-    text-decoration: none;
     display: flex;
     justify-content: flex-end;
-    margin: 0;
-    padding: 0;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+    gap: 30px;
 }
 
 li {
-    gap: 16px;
     padding-top: 0;
 }
 
+.header {
+    display: flex;
+    justify-content:space-around;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    font-size: 15px;
+    flex: 1;
+}
+
+img {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 550px;
+    height: 180px;
+    margin: 40px 40px;
+    margin-left: 600px;
+}
